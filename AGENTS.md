@@ -1,6 +1,6 @@
 # V4Invest agent instructions
 
-Read `README.md`, `docs/PRODUCT_VISION.md`, `docs/ARCHITECTURE.md`, `docs/DATA_SOURCES.md`, `docs/DATA_GOVERNANCE.md`, and `docs/ROADMAP.md` before major changes. Iran-first; global-ready, not global-required. Reuse reliable existing capabilities; avoid unnecessary dependencies and service proliferation. Public code is approved; license selection and external data redistribution are not automatically approved.
+Read `README.md`, `docs/PRODUCT_VISION.md`, `docs/ARCHITECTURE.md`, `docs/DATA_SOURCES.md`, `docs/DATA_GOVERNANCE.md`, `docs/ROADMAP.md`, and `docs/CONTINUOUS_INTELLIGENCE.md` before major changes. Iran-first; global-ready, not global-required. Reuse reliable existing capabilities; avoid unnecessary dependencies and service proliferation. Public code is approved; license selection and external data redistribution are not automatically approved.
 
 - Work from a real backlog and inspect current implementation. Implement small coherent changes with acceptance criteria and risk-based tests. Distinguish proposed, implemented, tested, integrated and deployed. Do not claim live verification without evidence.
 - Source discovery is continuous, but registration is not permission. Review terms, license, privacy and security; prefer primary sources and permitted read-only APIs/feeds/exports. Never circumvent login, CAPTCHA, rate limits or restrictions. No brokerage credentials or order submission.
@@ -11,3 +11,7 @@ Read `README.md`, `docs/PRODUCT_VISION.md`, `docs/ARCHITECTURE.md`, `docs/DATA_S
 - Prefer fixture-backed contract tests and bounded opt-in live probes, no repeated full expensive runs. Validate actual UI rendering and accessibility once UI exists.
 - Ask for approval before paid services, consequential architecture, license selection, private data disclosure, public deployment or destructive actions. Continue reversible approved research and development independently.
 - Deliver changed files, verification evidence, blockers and actionable next tasks.
+
+## Zero incremental spend and continuous intelligence
+- No new paid data, API, model, hosting, compute or storage. Prefer free permitted accounts and existing resources, enforce quotas and stop/defer rather than switch to a paid fallback. Do not create accounts without owner approval or circumvent platform restrictions.
+- Source discovery and outcome-based learning are core product requirements. Use qualified evidence and RAG before fine-tuning; version forecasts, assess all eligible outcomes with point-in-time data, validate changes out-of-sample, and retain rollback. Never claim superior investment performance without fair benchmark evidence.
