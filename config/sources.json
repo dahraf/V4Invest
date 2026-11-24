@@ -655,7 +655,9 @@
       "status": "candidate",
       "license_verified": false,
       "security_reviewed": false,
-      "live_verified": false
+      "live_verified": false,
+      "decision": "hold_license",
+      "documented_license": "GPLv3"
     },
     {
       "url": "https://github.com/amirziveh/tsetmc-skill",
@@ -687,7 +689,9 @@
       "status": "candidate",
       "license_verified": false,
       "security_reviewed": false,
-      "live_verified": false
+      "live_verified": false,
+      "decision": "hold_security",
+      "review_note": "README documents insecure transport fallback; no integration until exact code audit and secure-only path."
     },
     {
       "url": "https://github.com/ARahimiQuant/finpy-tse",
@@ -810,6 +814,206 @@
       "license_verified": false,
       "security_reviewed": false,
       "live_verified": false
+    },
+    {
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "scope": "Financial research workflows",
+      "status": "candidate",
+      "decision": "adapt_patterns",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "scope": "Provider abstraction; V5 Apache-2.0, V4 AGPL per docs",
+      "status": "candidate",
+      "decision": "adapt_patterns",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/microsoft/qlib",
+      "scope": "Quantitative research",
+      "status": "candidate",
+      "decision": "defer",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/microsoft/RD-Agent",
+      "scope": "Research automation",
+      "status": "candidate",
+      "decision": "defer",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+      "scope": "Financial NLP methods",
+      "status": "candidate",
+      "decision": "reference",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/AI4Finance-Foundation/Awesome_AI4Finance",
+      "scope": "Technology discovery catalog",
+      "status": "candidate",
+      "decision": "reference",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/patronus-ai/financebench",
+      "scope": "Financial QA benchmark methods",
+      "status": "candidate",
+      "decision": "reference",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/sqyangit/FinMRAGBench",
+      "scope": "Multimodal evidence benchmark",
+      "status": "candidate",
+      "decision": "reference",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/searxng/searxng",
+      "scope": "Permitted metasearch",
+      "status": "candidate",
+      "decision": "prototype_candidate",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/sadrmanesh/persian-rag",
+      "scope": "Persian hybrid retrieval",
+      "status": "candidate",
+      "decision": "prototype_candidate",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/yaldat/yalda-embedding",
+      "scope": "Persian embedding model",
+      "status": "candidate",
+      "decision": "prototype_candidate",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://huggingface.co/MCINext/Hakim",
+      "scope": "Persian embedding; direct fetch blocked; rights unknown",
+      "status": "candidate",
+      "decision": "hold",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+      "scope": "Multilingual embedding baseline",
+      "status": "candidate",
+      "decision": "prototype_candidate",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://www.sqlite.org/fts5.html",
+      "scope": "Local lexical search",
+      "status": "candidate",
+      "decision": "preferred_baseline",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "scope": "Local quantized inference",
+      "status": "candidate",
+      "decision": "defer",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/ollama/ollama",
+      "scope": "Local model runtime",
+      "status": "candidate",
+      "decision": "defer",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/UKPLab/sentence-transformers",
+      "scope": "Embedding/reranking library",
+      "status": "candidate",
+      "decision": "defer",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/polakowo/vectorbt",
+      "scope": "Backtesting; Apache 2.0 with Commons Clause",
+      "status": "candidate",
+      "decision": "hold_license",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/mementum/backtrader",
+      "scope": "Backtesting; GPL-3.0",
+      "status": "candidate",
+      "decision": "hold_license",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
+    },
+    {
+      "url": "https://pymupdf.readthedocs.io/",
+      "scope": "PDF extraction; AGPL or commercial",
+      "status": "candidate",
+      "decision": "hold_license",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false,
+      "documentation_reviewed_at": "2026-11-24"
     }
   ]
 }
