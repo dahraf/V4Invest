@@ -621,7 +621,9 @@
       "status": "candidate",
       "license_verified": false,
       "security_reviewed": false,
-      "live_verified": false
+      "live_verified": false,
+      "documented_license": "MIT",
+      "documentation_reviewed_at": "2026-11-24"
     },
     {
       "url": "https://github.com/msmahdinejad/iran-bourse-mcp",
@@ -693,7 +695,9 @@
       "status": "candidate",
       "license_verified": false,
       "security_reviewed": false,
-      "live_verified": false
+      "live_verified": false,
+      "documented_license": "BSD-3-Clause",
+      "documentation_reviewed_at": "2026-11-24"
     },
     {
       "url": "https://github.com/yghaderi/oxtapus",
@@ -770,6 +774,38 @@
     {
       "url": "https://github.com/duckdb/duckdb",
       "scope": "analytical storage/query",
+      "status": "candidate",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false
+    },
+    {
+      "url": "https://github.com/sepehr071/iran-mcp",
+      "scope": "Iranian MCP discovery catalog; review individual components",
+      "status": "candidate",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false
+    },
+    {
+      "url": "https://github.com/sepehr071/iran-brokers-mcp",
+      "scope": "Public broker research and market data; no account access",
+      "status": "candidate",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false
+    },
+    {
+      "url": "https://github.com/Amir-Shokat/tehran-market-data",
+      "scope": "Fund panel, NAV, shareholders, daily price history",
+      "status": "candidate",
+      "license_verified": false,
+      "security_reviewed": false,
+      "live_verified": false
+    },
+    {
+      "url": "https://github.com/sepehr071/tsetmc-mcp",
+      "scope": "Read-only market data MCP candidate",
       "status": "candidate",
       "license_verified": false,
       "security_reviewed": false,
